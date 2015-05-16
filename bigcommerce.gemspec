@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<activesupport>, [">= 0"])
       s.add_runtime_dependency(%q<json>, [">= 0"])
-      s.add_runtime_dependency(%q<rest-client>, [">= 0"])
+      s.add_runtime_dependency(%q<rest-client>, ["= 1.6.7"])
       s.add_development_dependency(%q<coveralls>, [">= 0"])
       s.add_development_dependency(%q<ci_reporter_rspec>, [">= 0"])
       s.add_development_dependency(%q<mocha>, [">= 0"])
